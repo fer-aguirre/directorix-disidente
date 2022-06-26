@@ -24,7 +24,7 @@ def main():
             style='text-align:center;display:block'
             rel='noopener noreferrer'
             target='_blank'>
-            <b>Comuna Lencha Trans</b>
+            <b>La Comuna Lencha Trans</b>
         </div>
 
         <style>
