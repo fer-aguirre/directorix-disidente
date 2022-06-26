@@ -7,12 +7,15 @@ Directorio digital para construir redes entre las disidencias sexo-génericas en
 ## Estructura del Directorio
 
 ```
-├── app.py              
+├── app.py
 ├── assets
 │   └── icon.png
 ├── data
 │   └── directorix-processed.xlsx
 ├── Pipfile
 ├── Pipfile.lock
-└── README.md
+├── Procfile
+├── README.md
+├── requirements.txt
+└── setup.sh
 ```
