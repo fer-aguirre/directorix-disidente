@@ -7,12 +7,13 @@ from PIL import Image
 
 
 def main():
+
     # Open image with PIL
-    favicon = Image.open(f'./assets/icon.png')
+    # favicon = Image.open(f'./assets/icon.png')
     # Set title page and favicon
     st.set_page_config(
         page_title='Directorix Disidente', 
-        page_icon = favicon, 
+        # page_icon = favicon, 
         layout = 'wide', 
         initial_sidebar_state = 'expanded',)
     # Set streamlit app title
