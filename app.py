@@ -20,18 +20,29 @@ def main():
     st.markdown(
         """
         <h1 style='text-align: center; color: #7b0cd7;'>Directorix Disidente</h1>
-        <div id='header'>
-            <a href='https://www.instagram.com/lacomuna.lenchatrans/'
-            style='text-align:center;display:block'
-            rel='noopener noreferrer'
-            target='_blank'>
-            <b>La Comuna Lencha Trans</b>
-        </div>
+        """, unsafe_allow_html=True)
 
+    # Insert containers laid out as columns
+    col1, col2, col3= st.columns([3, 6, 3])
+    # Set streamlit app description
+    with col2:
+
+        st.markdown(
+        """
+        <p style='text-align: justify;'>
+            Te damos la bienvenida a este directorix dónde nos dimos a la tarea de  
+            reunir comunidad disidente de la que puedas apoyarte para concluir proyectos,  
+            materializar ideas y cualquier otro tipo de apoyo o acompañamiento. Esperamos
+            que en esta red encuentres a quien buscas y juntxs construyamos cosas increíbles.
+            <span id='description'>
+                <a href='https://www.instagram.com/lacomuna.lenchatrans/' rel='noopener noreferrer' target='_blank'>
+                <b>La Comuna Lencha Trans</b>
+            </span>
+        </p>
         <style>
-        #header a {
+        #description a {
 
-           color: hotpink;
+        color: hotpink;
             }
         </style>
         """, unsafe_allow_html=True)
