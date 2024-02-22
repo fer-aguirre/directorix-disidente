@@ -127,5 +127,8 @@ cython_debug/
 # Git
 .history/
 
+# Directories
+data/
+
 # VS Code
 .vs*
